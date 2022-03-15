@@ -16,8 +16,7 @@ class PageSeeder extends Seeder
 {
     const TIMESTAMP = 'Fri Jan 18 15:32:15 2019 -0700';
 
-    // Because it's temporarily JSON, not TEXT[] yet
-    const ALL_CHANGES = '["wikitext", "title", "alt_title", "slug", "tags", "metadata"]';
+    const ALL_CHANGES = "ARRAY['wikitext', 'title', 'alt_title', 'slug', 'tags', 'metadata']";
 
     /**
      * Run the database seeds.
